@@ -1,4 +1,4 @@
-package my.map;
+package joker.map;
 
 import java.util.Collection;
 import java.util.HashMap;

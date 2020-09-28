@@ -1,4 +1,4 @@
-package my.collection;
+package joker.collection;
 
 import java.util.ArrayList;
 

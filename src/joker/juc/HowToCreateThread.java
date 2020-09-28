@@ -1,4 +1,4 @@
-package my.juc;
+package joker.juc;
 
 /**
  *  * 实例HowToCreateThread

@@ -1,4 +1,4 @@
-package my.basic;
+package joker.basic;
 
 import java.util.Scanner;
 
