@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -15,7 +15,7 @@ import java.io.Writer;
  */
 public class WriterDemo {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/joker/stream/write.txt");
+        File file = new File("src/joker/iostream/write.txt");
         Writer writer = null;
         writer = new FileWriter(file);
         writer.write("com/joker");

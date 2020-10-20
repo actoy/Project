@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.*;
 
@@ -8,7 +8,7 @@ public class OutputStreamDemo {
     }
 
     static void test() throws IOException{
-        File file = new File("src/joker/stream/out.txt");
+        File file = new File("src/joker/iostream/out.txt");
         OutputStream outputStream = null;
         outputStream = new FileOutputStream(file);
         outputStream.write(97);

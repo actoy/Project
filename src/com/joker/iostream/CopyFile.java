@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,9 +17,9 @@ public class CopyFile {
 
     public static void main(String[] args) throws IOException {
         //定义源数据文件
-        File src = new File("src/joker/stream/file_demo.txt");
+        File src = new File("src/joker/iostream/file_demo.txt");
         //定义目的数据文件
-        File dest = new File("src/joker/stream/out.txt");
+        File dest = new File("src/joker/iostream/out.txt");
 
         //创建输入流对象
         InputStream inputStream = null;

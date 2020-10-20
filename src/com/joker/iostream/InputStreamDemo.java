@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -25,7 +25,7 @@ public class InputStreamDemo {
     }
 
     private static void inputStream() throws IOException {
-        InputStream inputStream = new FileInputStream("src/joker/stream/file_demo.txt");
+        InputStream inputStream = new FileInputStream("src/joker/iostream/file_demo.txt");
         // method 1 读取单个输入流
 //        int read = inputStream.read();
 //        System.out.println((char)read);

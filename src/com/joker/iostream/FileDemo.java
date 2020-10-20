@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class FileDemo {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/joker/stream/file_demo.txt");
+        File file = new File("src/joker/iostream/file_demo.txt");
 
         //create file
         file.createNewFile();

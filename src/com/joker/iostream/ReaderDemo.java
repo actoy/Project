@@ -1,4 +1,4 @@
-package com.joker.stream;
+package com.joker.iostream;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class ReaderDemo {
     }
 
     static void testRead() throws IOException {
-        Reader reader = new FileReader("src/joker/stream/file_demo.txt");
+        Reader reader = new FileReader("src/joker/iostream/file_demo.txt");
         int read = reader.read();
         System.out.println((char)read);
 
@@ -26,7 +26,7 @@ public class ReaderDemo {
 
     static void cycle() throws IOException {
         //method 1
-        Reader reader = new FileReader("src/joker/stream/file_demo.txt");
+        Reader reader = new FileReader("src/joker/iostream/file_demo.txt");
         int length = 0;
 //        while ((length = reader.read()) != -1) {
 //            System.out.println((char)length);
