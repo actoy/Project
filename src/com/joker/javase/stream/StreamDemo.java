@@ -72,9 +72,18 @@ public class StreamDemo {
 
     public static void main(String[] arags){
         // stream 生成操作
-        gen();
+//        gen();
 
         // 中间操作:如果调用的方法之后返回的是Stream对象，就意味着是一个中间操作
-        middle();
+//        middle();
+
+        //创建一组自定义对象
+        String str = "java,scala,php";
+        Stream.of(str.split(",")).map(Person::new).forEach(System.out::println);
+        Stream.of(str.split(",")).map(Person::build).forEach(System.out::println);
+
+        //将str中的每一个数值都打印出来，同事计算最终的求和结果
+        str = "1,2,3";
+        System.out.println(Stream.of(str.split(",")).peek(System.out::println).mapToInt(Integer::valueOf).sum());
     }
 }
